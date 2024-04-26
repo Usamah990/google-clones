@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Image Search</title>
+    <link rel="stylesheet" href="style/style.css" />
+  </head>
+  <body>
+    <header>
+      <ul>
+        <li><a href="./index.html"">Google Search</a></li>
+      </ul>
+    </header>
+    <article class="search__input">
+      <div class="google__logo">
+        <img src="img/GoogleImagesLogo.png" width="230px" alt="Google Images" />
+      </div>
+      <form action=" https://www.google.com/search?tbm=isch&q=" method="get">
+        <section id="input__group">
+          <input type="text" name="q" />
+          <button type="submit">
+            <img
+              src="./img/search.png"
+              alt="search"
+              class="search__logo__image"
+              style="width: 18px"
+            />
+          </button>
+          <input type="hidden" name="tbm" value="isch" />
+        </section>
+      </form>
+    </article>
+    <footer>
+      <p>Made with ❤🙄</p>
+      <p>By : Usamah Ganteng</p>
+    </footer>
+  </body>
+</html>
